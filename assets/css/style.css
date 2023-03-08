@@ -1,0 +1,150 @@
+@importurl url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+:root{
+    --mainColor:#000;
+    --mainFont:'Montserrat',sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+ img{
+    width: 300px;
+    height: 200px;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav img{
+    width: 100px;
+    height: 100px;
+}
+header nav div a {
+    font: bold 20px var(--mainFont);
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+.header-body p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+}
+a:hover{
+    color: #fff;
+}
+hr {
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7d0e2;
+    border: none;
+    border-style: outset;
+}
+.container2 div h3 {
+    font: bold 17px var(--mainFont);
+    color: #4c8bff;
+    text-align: center;
+    margin-top: 30px;
+}
+.container2 div h1 {
+    font: bold 50px var(--mainFont);
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container2-body h4 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container2-body i {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fdd900;
+    margin-bottom: 10px;
+
+}
+
+
+
+.container2-body article {
+    font: bold 17px var(--mainFont);
+}
+
+.container2-body {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cost {
+    margin-left: 20px;
+    color: green;
+    font-size: 16px;
+}
+
+span {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+
+.pp {
+    font-size: 16px;
+}
+
+.article-image {
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-text {
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+}
+
+.menuline {
+    width: 80%;
+    border: none;
+    background-color: rgb(144, 138, 138);
+    ;
+    border-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#oclock {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+
+#location {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+.img-body{
+    display: flex;
+    justify-content: space-between;
+}
+
